@@ -1,7 +1,7 @@
 import React from "react";
 
 //adding up componenents
-import Logo from "../../assets/img/ethereum.png";
+import Logo from "../../assets/img/gainxplus.png";
 import Nav from "../nav/Nav";
 import AccountBtns from "../button/AccountBtns";
 
@@ -17,7 +17,7 @@ const Header = ({ setNavMobile }) => {
   return (
     <header
       // className="py-[20px] lg:pt-[50px]"
-      style={{ background: "#000" }}
+      style={{ background: "#000", paddingTop: "5px", paddingBottom: "5px" }}
       data-aos="fade-down"
       data-aos-delay="400"
       data-aos-duration="2000"
@@ -25,7 +25,7 @@ const Header = ({ setNavMobile }) => {
       <div className="container mx-auto flex items-center justify-between">
         {/* logo */}
         <a href="#/">
-          <img src={Logo} alt="logo" />
+          <img style={{ width: "150px" }} src={Logo} alt="logo" />
         </a>
         {/* Nav butttons */}
         <div className="hidden lg:flex gap-x-[55px]" style={{ color: "#fff" }}>

@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/img/crypto.jpg";
+import Logo from "../../assets/img/gainxplus.png";
 import VisaImg from "../../assets/img/visa.png";
 import MastercardImg from "../../assets/img/mastercard.png";
 import BitcoinImg from "../../assets/img/bitcoin.png";
@@ -28,7 +28,7 @@ const Footer = () => {
                 src={Logo}
                 alt="icons"
                 draggable="false"
-                className="border rounded-2xl shadow-xl mt-10 lg:mt-5"
+                className=" rounded-2xl shadow-xl mt-10 lg:mt-5"
               />
             </a>
           </div>
@@ -122,7 +122,7 @@ const Footer = () => {
           style={{ color: "#0faf93" }}
         >
           {/* copy text */}
-          <div>&copy; 2023 Bitcoin. All rights reserved.</div>
+          <div>&copy; 2023 GainX. All rights reserved.</div>
           {/* social icons */}
           <div className="flex text-2xl gap-x-8">
             <a className="hover:text-blue transition" href="#/">

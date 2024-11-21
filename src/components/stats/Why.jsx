@@ -20,10 +20,12 @@ const Why = () => {
             data-aos="fade-left"
             data-aos-offset="400"
           >
-            <h2 className="section-title">Why you Should choose CRAPPO</h2>
+            <h2 className="section-title">
+              Your Trading Advantages with GainX
+            </h2>
             <p className="section-subtitle">
-              Experience the next generation cryptocurrency platform. No
-              financial borders, extra fees, and fake reviews.
+              There are no limits for brokerage company GainX when it comes to
+              providing outstanding benefits to clients
             </p>
             <button className="btn px-6">Learn more</button>
           </div>

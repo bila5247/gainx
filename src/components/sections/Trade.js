@@ -15,7 +15,7 @@ const Trade = () => {
                 <h2 className='section-title text-center mb-16'
                     data-aos='fade-up'
                     data-aos-offset='400'>
-                    Trade securely and market the high growth cryptocurrencies.
+                    Trade securely and market the high growth with GainX.
                 </h2>
                 {/* items */}
                 <div className='flex flex-col gap-[45px] lg:flex-row'
@@ -25,7 +25,7 @@ const Trade = () => {
                     {currency.map(
                         (item, index) => {
                             //destructure item
-                            const { image, name, abbr, description } = item;
+                            const { name, accCur, dep, spread, swapFree, Comm } = item;
                             return (
                                 // item
                                 <div
@@ -37,16 +37,21 @@ const Trade = () => {
                                 >
                                     <div className='flex flex-col justify-center items-center'>
                                         {/* item image */}
-                                        <img className='mb-12' src={image} alt='' />
+                                        {/* <img className='mb-12' src={image} alt='' /> */}
                                         {/* item name */}
                                         <div className='mb-4 flex items-center gap-x-2'>
                                             <div className='text-[32px] font-bold'>{name}</div>
-                                            <div className='text-lg text-white font-medium'>
-                                                {abbr}
-                                            </div>
                                         </div>
+
                                         {/* item description */}
-                                        <p className='mb-6 text-center'>{description}</p>
+                                        <p className='mb-4'>Account Currency: {accCur}</p>
+                                        {/* account deposit */}
+                                        <p className='mb-4'>Account Deposit: {dep}</p>
+                                        {/* Spread */}
+                                        <p className='mb-4'>Spread: {spread}</p>
+                                        {/* swap free */}
+                                        <p className='mb-4'>Swap Free: {swapFree}</p>
+                                        <p className='mb-6 text-center'>Commission: {Comm}</p>
                                         {/* btn */}
                                         <button
                                             className={`${name === itemName
@@ -57,7 +62,7 @@ const Trade = () => {
                                             style={{ background: "#0faf93" }}
                                         >
                                             {name === itemName && (
-                                                <div className='text-lg font-medium'>Start mining</div>
+                                                <div className='text-lg font-medium'>Sign Up</div>
                                             )}
                                             <IoIosArrowForward
                                                 className={`${name === itemName ? 'text-2xl' : 'text-3xl'

@@ -12,7 +12,9 @@ const FeatureSection1 = () => {
           data-aos="fade-right"
           data-aos-offset="400"
         >
-          <h3 className="h3 mb-6">Invest Smart</h3>
+          <h3 className="h3 mb-6">
+            We Guarantee the Security and Protection of Your Deposits
+          </h3>
           <p className="text-slate-700 mb-8">
             Get full statistic information about the behaviour of buyer and
             seller will help you to make the decision.

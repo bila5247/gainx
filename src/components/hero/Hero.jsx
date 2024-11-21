@@ -23,20 +23,20 @@ const Hero = () => {
             </div>
           </div>
           {/* title */}
-          <h1
+          <h3
             className="text-[32px] lg:text-[64px] leading-tight mb-6 "
             data-aos="fade-down"
             data-aos-delay="500"
           >
-            Fastest & secure platform to invest in crypto.
-          </h1>
+            Trade CFDs, Matels, Indices & Stocks in a Single Account
+          </h3>
           <p
             className="max-w-[440px] leading-relaxed mb-8"
             data-aos="fade-down"
             data-aos-delay="600"
           >
-            Buy and Sell cryptocurrency, trusted by 10M wallets with over $30
-            billion in transactions.
+            your portfolio and&nbsp; access multiple markets through one
+            platform for a seamless trading experience.
           </p>
           <button
             className="px-6 py-2 rounded-full text-white text-sm lg:h-16 lg:text-base font-bold gap-x-6"
@@ -45,7 +45,7 @@ const Hero = () => {
             data-aos-delay="700"
           >
             <div className="flex items-center justify-betweeen gap-2">
-              Try for Free
+              START TRADING
               <IoIosArrowDroprightCircle className="text-2xl lg:text-3xl" />
             </div>
           </button>

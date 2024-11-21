@@ -1,6 +1,4 @@
-import BitconImg from './assets/img/bitcon.png'
-import EthereumImg from './assets/img/ethereum.png';
-import LitecoinImg from './assets/img/litecoin.png';
+
 
 export const navData = [
     {
@@ -23,24 +21,36 @@ export const navData = [
 
 export const currency = [
     {
-        image: BitconImg,
-        name: 'Bitcoin',
-        abbr: 'BTC',
-        description:
-            'Digital currency in which a record of transactions is maintained.',
+        name: 'Standard',
+        accCur: 'USD',
+        dep: '$30',
+        spread: 'From 2.1',
+        swapFree: 'Yes',
+        Comm: 'No',
+
     },
     {
-        image: EthereumImg,
-        name: 'Ethereum',
-        abbr: 'ETH',
-        description:
-            'Blockchain technology to create and run decentralized digital applications.',
+        name: 'E C N',
+        accCur: 'USD',
+        dep: '$500',
+        spread: 'From 0.1',
+        swapFree: 'Yes',
+        Comm: 'Yes',
     },
     {
-        image: LitecoinImg,
-        name: 'Litecoin',
-        abbr: 'LTC',
-        description:
-            'Cryptocurrency that enables instant payments to anyone in the world.',
+        name: 'Premium',
+        accCur: 'USD',
+        dep: '$30',
+        spread: 'From 2.8',
+        swapFree: 'Yes',
+        Comm: 'No',
+    },
+    {
+        name: 'Pro​​',
+        accCur: 'USD',
+        dep: '$5000',
+        spread: '0.0',
+        swapFree: 'Yes',
+        Comm: 'Yes',
     },
 ];
