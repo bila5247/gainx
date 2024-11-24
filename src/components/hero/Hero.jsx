@@ -1,11 +1,11 @@
 import React from "react";
-import Image from "../../assets/img/Homepage.webp";
+import Image from "../../assets/img/globe-109274.jpg";
 // import icons
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 const Hero = () => {
   return (
-    <section className="container mx-auto">
+    <section className="container mx-auto pt-20">
       <div className="flex flex-col items-center lg:flex-row">
         {/* Hero text */}
         <div className="flex-1">

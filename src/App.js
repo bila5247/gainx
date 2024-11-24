@@ -9,7 +9,7 @@ import Why from './components/stats/Why';
 import Trade from './components/sections/Trade';
 
 import { useEffect, useState } from 'react';
-import Calculate from './components/sections/Calculate';
+// import Calculate from './components/sections/Calculate';
 import Features from './components/sections/Features';
 import NewsLetter from './components/sections/NewsLetter';
 import Footer from './components/sections/Footer';
@@ -35,7 +35,7 @@ function App() {
       </div>
       <Stats />
       <Why />
-      <Calculate />
+      {/* <Calculate /> */}
       <Trade />
       <Features />
       <NewsLetter />

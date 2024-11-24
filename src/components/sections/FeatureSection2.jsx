@@ -1,6 +1,6 @@
 import React from "react";
 //import image
-import Image2 from "../../assets/img/feature-2-img.png";
+import Image2 from "../../assets/img/network10.png";
 
 const FeatureSection2 = () => {
   return (
@@ -13,7 +13,7 @@ const FeatureSection2 = () => {
             data-aos="fade-right"
             data-aos-offset="400"
           >
-            <img src={Image2} alt="image2" draggable="false" />
+            <img src={Image2} alt="image2" draggable="false" style={{width: "700px"}} />
           </div>
           {/* text */}
           <div

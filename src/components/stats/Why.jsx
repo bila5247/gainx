@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../../assets/img/why-img.png";
+import Image from "../../assets/img/communication.png";
 
 const Why = () => {
   return (
@@ -11,6 +11,7 @@ const Why = () => {
             className="order-2 lg:order-1"
             data-aos="fade-right"
             data-aos-offset="400"
+            style={{ width: "800px" }}
           >
             <img src={Image} alt="casset" />
           </div>

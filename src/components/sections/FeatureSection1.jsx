@@ -1,6 +1,6 @@
 import React from "react";
 //image
-import Image1 from "../../assets/img/feature-1-img.png";
+import Image1 from "../../assets/img/diversity.png";
 
 const FeatureSection1 = () => {
   return (
@@ -11,6 +11,7 @@ const FeatureSection1 = () => {
           className="max-w-[454px] mb-6 lg:mb-10"
           data-aos="fade-right"
           data-aos-offset="400"
+          style={{ marginTop: "100px" }}
         >
           <h3 className="h3 mb-6">
             We Guarantee the Security and Protection of Your Deposits
@@ -27,7 +28,12 @@ const FeatureSection1 = () => {
           data-aos="fade-left"
           data-aos-offset="400"
         >
-          <img src={Image1} alt="banner" draggable="false" />
+          <img
+            src={Image1}
+            alt="banner"
+            draggable="false"
+            style={{ width: "500px" }}
+          />
         </div>
       </div>
     </section>
